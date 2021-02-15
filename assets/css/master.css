@@ -3,3 +3,61 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* INIZIO NAVBAR XS */
+.navbar-default {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #5B6987;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+
+.my-dropdown:after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #5B6987;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.my-btn-default {
+  color: #006aff;
+  background-color: #fff;
+  border-color: #006aff;
+}
+
+/* Hamburger Menù */
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #006aff
+}
+
+
+/* FINE NAVBAR XS */
+
+/* INIZIO JUMBO XS */
+
+/* FINE JUMBO XS */
+
+/* --- Media SM --- */
+
+@media all and (min-width: 768px) {
+
+}
+
+/* --- Media MD --- */
+
+/* --- Media LG --- */
