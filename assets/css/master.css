@@ -16,7 +16,6 @@ body {
 
 .navbar-default {
   background-color: #fff;
-  border: 1px solid black;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -61,11 +60,16 @@ body {
   background-image: url('../img/bg-home.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 70px;
+  padding: 50px 0;
 }
 
 h1 {
   color: #fff;
+}
+
+.text-jumbo > p {
+  color: #fff;
+  font-size: 20px;
 }
 
 .card {
@@ -84,6 +88,29 @@ h1 {
   padding: 5px 2px;
   margin: 5px 0;
 }
+
+.btn-form-card {
+  width: 100%;
+  margin: 5px 0;
+  background-color: rgb(71, 132, 255);
+}
+
+.btn-google {
+  color: #5b6987;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 1px 2px 4px #5b6987;
+}
+
+.content-card > p {
+  margin-top: 10px;
+}
+
+.content-card > p > a {
+  padding-top: 5px;
+  text-decoration: underline;
+}
+
 }
 
 /* FINE JUMBO XS */
@@ -92,10 +119,17 @@ h1 {
 
 @media all and (min-width: 768px) {
 
-  .navbar-nav > li > button {
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
+.navbar-nav > li > button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* JUMBO SM */
+
+#jumbo {
+  padding: 70px 0;
+}
+
 
 }
 
