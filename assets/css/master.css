@@ -4,7 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 /* INIZIO NAVBAR XS */
+
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-default {
   background-color: #fff;
   border: 1px solid black;
@@ -12,7 +21,6 @@
 
 .navbar-default .navbar-nav > li > a {
     color: #5B6987;
-    font-family: 'Inter', sans-serif;
 }
 
 .navbar-brand img {
@@ -49,6 +57,34 @@
 /* FINE NAVBAR XS */
 
 /* INIZIO JUMBO XS */
+#jumbo {
+  background-image: url('../img/bg-home.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.content-card > h2 > span {
+  color: #006aff;
+}
+
+.form-card {
+  width: 100%;
+  padding: 5px 2px;
+  margin: 5px 0;
+}
+}
 
 /* FINE JUMBO XS */
 
@@ -56,8 +92,21 @@
 
 @media all and (min-width: 768px) {
 
+  .navbar-nav > li > button {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
 }
 
 /* --- Media MD --- */
+
+@media all and (min-width: 992px) {
+
+  .my-navbar-left {
+    padding-left: 50px;
+  }
+
+}
 
 /* --- Media LG --- */
