@@ -293,13 +293,87 @@ h1 {
 
 /* INIZIO DEVELOPMENT XS */
 
-.text-development {
+.text-dev {
   text-align: center;
+  padding: 40px 0;
+}
+
+.dev-card {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 10px;
+  margin: 0 auto;
+}
+
+.dev-card > img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+.descr-partner {
+  font-size: 20px;
+  color: #5b6987;
+  padding-top: 15px;
+}
+
+.founder {
+  color: #031b4e;
+  font-weight: 500;
+  margin: 0;
+}
+
+.role-founder {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.content-dev-card > a:after {
+  content: '>';
+  padding-left: 5px;
 }
 
 /* FINE DEVELOPMENT XS */
 
+/* INIZIO GET STARTED XS */
 
+.text-started {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.text-started > h2 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.btn-get-start {
+  background-color: #fff;
+  color: #006aff;
+}
+
+/* FINE GET STARTED XS */
+
+/* INIZIO FOOTER XS */
+
+.bg-dark-blue {
+  background-color: rgb(5, 20, 61);
+}
+
+.identity-footer > p {
+  color: #5b6987;
+}
+
+.identity-footer > ul {
+  display: inline-block;
+}
+
+.identity-footer > ul > li {
+  display: inline;
+}
+
+/* FINE FOOTER XS */
 
 
 /* --- Media SM --- */
