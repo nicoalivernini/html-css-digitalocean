@@ -8,10 +8,17 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.pad-bot-40 {
+  padding-bottom: 40px;
+}
+
 /* INIZIO NAVBAR XS */
 
 .navbar {
   margin-bottom: 0;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
 .navbar-default {
@@ -63,8 +70,9 @@ body {
   padding: 50px 0;
 }
 
-h1 {
+.text-jumbo > h1 {
   color: #fff;
+  padding-top: 50px;
 }
 
 .text-jumbo > p {
@@ -109,6 +117,8 @@ h1 {
 .content-card > p > a {
   padding-top: 5px;
   text-decoration: underline;
+  color: rgb(0, 68, 255);
+  font-weight: 500;
 }
 
 /* FINE JUMBO XS */
@@ -134,9 +144,19 @@ h1 {
   text-align: center;
 }
 
+.logo-partner  img {
+  width: 80%;
+  height: 100px;
+}
+
 .link-partner {
   text-align: center;
   padding-bottom: 20px;
+}
+
+.link-partner > a {
+  color: rgb(0, 68, 255);
+  font-weight: 500;
 }
 
 /* FINE LOGO PARTNER XS */
@@ -146,6 +166,15 @@ h1 {
 .text-deploy {
   text-align: center;
   padding: 40px 0;
+}
+
+.text-deploy > p {
+  font-size: 20px;
+  color: #5b6987;
+}
+
+.text-deploy > h2 {
+  color: #031b4e;
 }
 
 .description {
@@ -180,14 +209,28 @@ h1 {
   padding: 40px 0;
 }
 
+.text-designed p {
+  font-size: 20px;
+  color: #5b6987;
+}
+
 .img-designed {
   text-align: center;
+  padding: 10px;
 }
 
 .img-designed > img {
   width: 80%;
   border-radius: 5px;
   box-shadow: rgb(3 27 78 / 6%) 0px 2px 4px;
+}
+
+.text-designed > h2 {
+  color: #031b4e;
+}
+
+.img-designed > p {
+  color:#031b4e;
 }
 
 /* .img-designed > img:before {
@@ -205,7 +248,7 @@ h1 {
 
 .bubble-menu {
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .bubble-menu > ul {
@@ -233,8 +276,20 @@ h1 {
   padding: 40px 0;
 }
 
+.text-features > h2 {
+  color: #031b4e;
+}
+
+.content-card > h4 {
+  color: #031b4e;
+}
+
 .card-features {
   padding: 10px 0;
+}
+
+.content-card > a {
+  color: rgb(0, 68, 255);
 }
 
 .content-card > a:after {
@@ -271,6 +326,10 @@ h1 {
   list-style: none;
 }
 
+.content-service > ul > li > span  {
+  text-align: right;
+}
+
 .content-service > ul > li > p  {
   display: inline;
   padding-left: 60px;
@@ -278,6 +337,8 @@ h1 {
 
 .content-service > ul > li > a {
   float: right;
+  color: rgb(23, 180, 193);
+  font-weight: 400;
 }
 
 .content-service > ul > li > a:after {
@@ -289,6 +350,13 @@ h1 {
   padding-bottom: 40px;
 }
 
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid #fff;
+}
+
 /* FINE SERVICE XS */
 
 /* INIZIO DEVELOPMENT XS */
@@ -296,6 +364,10 @@ h1 {
 .text-dev {
   text-align: center;
   padding: 40px 0;
+}
+
+.text-dev > h2 {
+  color: #031b4e;
 }
 
 .dev-card {
@@ -365,6 +437,16 @@ h1 {
   color: #5b6987;
 }
 
+.text-identity {
+  font-weight: 700;
+  margin: 0;
+}
+
+.identity-footer > img {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 .identity-footer > ul {
   display: inline-block;
 }
@@ -373,6 +455,23 @@ h1 {
   display: inline;
 }
 
+.identity-footer > ul > li > i {
+  color: #5b6987;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.menu-footer > ul {
+  padding-top: 30px;
+  list-style: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu-footer > ul > li > a {
+  color: #fff;
+  font-weight: 400;
+}
 /* FINE FOOTER XS */
 
 
