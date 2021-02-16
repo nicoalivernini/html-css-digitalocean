@@ -72,7 +72,6 @@ body {
 
 .text-jumbo > h1 {
   color: #fff;
-  padding-top: 50px;
 }
 
 .text-jumbo > p {
@@ -198,6 +197,24 @@ body {
 
 .content-card > p {
   color: #5b6987;
+}
+
+.btn-deploy:active, .btn-deploy:focus, .btn-deploy:hover {
+  color: rgb(5, 20, 61);
+  background-color: rgba(98, 107, 136, 0.2);
+  border-color: 0;
+}
+
+.vertical-line {
+  display: block;
+  padding: 5px;
+  border-left: 2px solid #5b6987;
+}
+
+.vertical-line > button:active {
+  display: block;
+  padding: 5px;
+  border-left: 2px solid red;
 }
 
 /* FINE DEPLOY XS */
@@ -401,6 +418,10 @@ hr {
   padding-bottom: 20px;
 }
 
+.content-dev-card > a {
+  color: rgb(0, 68, 255);
+}
+
 .content-dev-card > a:after {
   content: '>';
   padding-left: 5px;
@@ -417,12 +438,12 @@ hr {
 
 .text-started > h2 {
   color: #fff;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .btn-get-start {
   background-color: #fff;
-  color: #006aff;
+  color: rgb(0, 68, 255);
 }
 
 /* FINE GET STARTED XS */
@@ -468,10 +489,30 @@ hr {
   font-weight: 700;
 }
 
+.menu-footer > ul > li {
+  padding: 5px 0;
+
+}
+
 .menu-footer > ul > li > a {
-  color: #fff;
+  color: rgb(149, 156, 175);
   font-weight: 400;
 }
+
+.text-card {
+  background-color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+}
+
+.img-help > img {
+  width: 5%;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
 /* FINE FOOTER XS */
 
 
@@ -479,15 +520,38 @@ hr {
 
 @media all and (min-width: 768px) {
 
+/* NAVBAR */
+
 .navbar-nav > li > button {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+/* LOGO PARTNER */
+
+.text-partner > h3 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.logo-partner img {
+  width: 100%;
+  height: 80px;
+}
+
 /* JUMBO SM */
 
 #jumbo {
-  padding: 70px 0;
+  padding: 110px 0;
+}
+
+/* DESIGNED SM */
+
+.arrow-designed:after {
+  content: 'asdf';
+}
+.arrow-designed:before {
+  content: 'asdf';
 }
 
 /* FEATURES SM */
