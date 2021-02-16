@@ -248,6 +248,57 @@ h1 {
 
 /* FINE FEATURES XS */
 
+/* INIZIO SERVICE XS */
+
+.bg-blue {
+  background-color: rgb(1, 39, 173);
+}
+
+.text-service > h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.content-service {
+  color: #fff;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.content-service > ul {
+  list-style: none;
+}
+
+.content-service > ul > li > p  {
+  display: inline;
+  padding-left: 60px;
+}
+
+.content-service > ul > li > a {
+  float: right;
+}
+
+.content-service > ul > li > a:after {
+  content: '>';
+  padding-left: 5px;
+}
+
+.padd-fly {
+  padding-bottom: 40px;
+}
+
+/* FINE SERVICE XS */
+
+/* INIZIO DEVELOPMENT XS */
+
+.text-development {
+  text-align: center;
+}
+
+/* FINE DEVELOPMENT XS */
+
 
 
 
