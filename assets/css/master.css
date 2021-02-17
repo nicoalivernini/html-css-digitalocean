@@ -353,35 +353,35 @@ body {
   font-weight: 600;
 }
 
-.content-service {
+#content-service {
   color: #fff;
   margin: 0 auto;
+}
+
+.first-fly {
+  padding-bottom: 20px;
+}
+
+.first-fly .row, .second-fly .row {
   width: 95%;
+  margin: 0 auto;
 }
 
-.content-service > ul {
-  list-style: none;
+.first-fly hr, .second-fly hr {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
-.content-service > ul > li > span  {
-  text-align: right;
-}
-
-.content-service > ul > li > p  {
-  display: inline;
-  padding-left: 60px;
-}
-
-.content-service > ul > li > a {
+.first-fly a, .second-fly a {
   float: right;
-  color: rgb(23, 180, 193);
-  font-weight: 400;
 }
 
-.content-service > ul > li > a:after {
+.first-fly a:after, .second-fly a:after {
   content: '>';
   padding-left: 5px;
 }
+
+
 
 .padd-fly {
   padding-bottom: 40px;
