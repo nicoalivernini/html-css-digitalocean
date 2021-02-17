@@ -26,7 +26,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #5B6987;
+  color: #5B6987;
 }
 
 .navbar-brand img {
@@ -46,6 +46,12 @@ body {
 .my-btn-default {
   color: #006aff;
   background-color: #fff;
+  border-color: #006aff;
+}
+
+.my-btn-default:hover {
+  color: #fff;
+  background-color: #006aff;
   border-color: #006aff;
 }
 
@@ -102,7 +108,14 @@ body {
 .btn-form-card {
   width: 100%;
   margin: 5px 0;
-  background-color: rgb(71, 132, 255);
+  background-color: #006aff;
+  border-color: #006aff;
+}
+
+.btn-form-card:hover {
+  color: #006aff;
+  background-color: #fff;
+  border-color: #006aff;
 }
 
 .btn-google {
@@ -110,6 +123,12 @@ body {
   background-color: #fff;
   border-color: #fff;
   box-shadow: 1px 2px 4px #5b6987;
+}
+
+.btn-google:hover {
+  color: #fff;
+  background-color: #5b6987;
+  border-color: #5b6987;
 }
 
 .btn-google > span > img {
@@ -124,9 +143,13 @@ body {
 
 .content-card > p > a {
   padding-top: 5px;
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(0, 68, 255);
   font-weight: 500;
+}
+
+.content-card > p > a:hover {
+  text-decoration: underline;
 }
 
 /* FINE JUMBO XS */
@@ -185,6 +208,7 @@ body {
   color: #031b4e;
   font-size: 35px;
   padding: 5px 0;
+  font-weight: 600;
 }
 
 .description {
@@ -218,7 +242,6 @@ body {
   color: #5b6987;
 }
 
-
 /* FINE DEPLOY XS */
 
 /* INIZIO DESIGNED XS */
@@ -232,6 +255,7 @@ body {
   font-size: 35px;
   padding: 5px 0;
   color: #031b4e;
+  font-weight: 600;
 }
 
 .text-designed p {
@@ -288,6 +312,7 @@ body {
 .text-features > h2 {
   color: #031b4e;
   font-size: 35px;
+  font-weight: 600;
 }
 
 .content-card > h4 {
@@ -325,6 +350,7 @@ body {
   font-size: 35px;
   padding-top: 40px;
   padding-bottom: 10px;
+  font-weight: 600;
 }
 
 .content-service {
@@ -380,6 +406,7 @@ hr {
 .text-dev > h2 {
   color: #031b4e;
   font-size: 35px;
+  font-weight: 600;
 }
 
 .dev-card {
@@ -394,7 +421,7 @@ hr {
   padding: 50px 10px;
   margin: 0 auto;
   display: inline-block;
-  width: 84%;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -443,11 +470,19 @@ hr {
   color: #fff;
   padding-bottom: 20px;
   font-size: 30px;
+  font-weight: 600;
 }
 
 .btn-get-start {
   background-color: #fff;
-  color: rgb(0, 68, 255);
+  color: #006aff;
+  border-color: #fff;
+}
+
+.btn-get-start:hover{
+  background-color: #006aff;
+  color: #fff;
+  border-color: #006aff;
 }
 
 /* FINE GET STARTED XS */
@@ -488,7 +523,6 @@ hr {
 
 .identity-footer > ul > li > i:hover {
   color: #fff;
-
 }
 
 .menu-footer > ul {
@@ -506,17 +540,13 @@ hr {
 .menu-footer > ul > li > a {
   color: rgb(149, 156, 175);
   font-weight: 400;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .menu-footer > ul > li > a:hover {
   color: #fff;
   text-decoration: none;
 }
-
-/* .text-card {
-  display: none;
-} */
 
 .img-help > img {
   width: 50px;
@@ -564,7 +594,6 @@ hr {
 
 /* FINE FOOTER XS */
 
-
 /* --- Media SM --- */
 
 @media all and (min-width: 768px) {
@@ -584,8 +613,8 @@ hr {
 }
 
 .navbar-nav > li > button {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* LOGO PARTNER */
@@ -626,13 +655,6 @@ hr {
   content: "\f054";
 }
 
-
-/* FEATURES SM */
-
-.card-features {
-
-}
-
 /* DEVELOPMENT SM */
 
 .dev-card:before, .dev-card:after {
@@ -647,6 +669,21 @@ hr {
 
 .dev-card:after {
   content: "\f054";
+}
+
+.dev-card:hover:before, .dev-card:hover:after {
+  font-size: 30px;
+}
+
+.content-dev-card {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 10px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
 }
 
 /* FOOTER */
@@ -724,13 +761,13 @@ hr {
 /* LOGO PARTNER */
 
 .text-partner > h3 {
-    margin-top: 35px;
-    margin-bottom: 25px;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 .logo-partner img {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 /* DEPLOY MD */
