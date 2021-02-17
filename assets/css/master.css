@@ -109,6 +109,12 @@ body {
   box-shadow: 1px 2px 4px #5b6987;
 }
 
+.btn-google > span > img {
+  width: 20px;
+  float: left;
+  padding: 3px;
+}
+
 .content-card > p {
   margin-top: 10px;
 }
@@ -311,7 +317,8 @@ body {
 /* INIZIO SERVICE XS */
 
 .bg-blue {
-  background-color: rgb(1, 39, 173);
+  background-image: linear-gradient(180deg, rgb(1, 39, 173), rgb(5, 20, 61));
+
 }
 
 .text-service > h2 {
