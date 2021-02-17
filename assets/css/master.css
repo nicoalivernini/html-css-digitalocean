@@ -359,7 +359,7 @@ body {
 }
 
 .first-fly {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .first-fly .row, .second-fly .row {
@@ -368,20 +368,28 @@ body {
 }
 
 .first-fly hr, .second-fly hr {
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .first-fly a, .second-fly a {
   float: right;
+  color: rgb(20, 206, 199);
+}
+
+.first-fly a:hover, .second-fly a:hover {
+  text-decoration: underline;
+}
+
+.first-fly p, .second-fly p {
+  margin: 0;
+  color: #fff;
 }
 
 .first-fly a:after, .second-fly a:after {
   content: '>';
   padding-left: 5px;
 }
-
-
 
 .padd-fly {
   padding-bottom: 40px;
