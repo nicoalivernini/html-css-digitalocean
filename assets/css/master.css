@@ -59,6 +59,12 @@ body {
   background-color: #006aff
 }
 
+/* TEST NAVBAR */
+
+
+
+/* FINE TEST NAVBAR */
+
 
 /* FINE NAVBAR XS */
 
@@ -208,7 +214,7 @@ body {
 .btn-deploy:active, .btn-deploy:focus, .btn-deploy:hover {
   color: rgb(5, 20, 61);
   background-color: rgba(98, 107, 136, 0.2);
-  border-color: 0;
+  border: none;
 }
 
 .vertical-line {
@@ -217,7 +223,7 @@ body {
   border-left: 2px solid #5b6987;
 }
 
-.vertical-line > button:active {
+.vertical-line:active {
   display: block;
   padding: 5px;
   border-left: 2px solid red;
@@ -477,6 +483,11 @@ hr {
   padding-right: 5px;
 }
 
+.identity-footer > ul > li > i:hover {
+  color: #fff;
+
+}
+
 .menu-footer > ul {
   padding-top: 30px;
   list-style: none;
@@ -492,6 +503,11 @@ hr {
 .menu-footer > ul > li > a {
   color: rgb(149, 156, 175);
   font-weight: 400;
+}
+
+.menu-footer > ul > li > a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .text-card {
