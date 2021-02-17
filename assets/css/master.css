@@ -231,7 +231,7 @@ body {
   color: #5b6987;
 }
 
-.img-designed {
+.content-designed {
   text-align: center;
   padding: 10px;
 }
@@ -246,21 +246,9 @@ body {
   color: #031b4e;
 }
 
-.img-designed > p {
-  color:#031b4e;
-}
-
-/* .img-designed > img:before {
-  content: "\f078";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  color: red;
-  padding-left: 5px;
-  vertical-align: middle;
-} */
-
-.img-designed > p {
+.content-designed > p {
   padding-top: 20px;
+  color:#031b4e;
 }
 
 .bubble-menu {
@@ -387,7 +375,7 @@ hr {
   color: #031b4e;
 }
 
-.dev-card {
+.content-dev-card {
   background-color: #fff;
   border-radius: 10px;
   text-align: center;
@@ -395,10 +383,9 @@ hr {
   margin: 0 auto;
 }
 
-.dev-card > img {
+.content-dev-card > img {
   height: 100%;
   width: auto;
-  display: block;
 }
 
 .descr-partner {
@@ -415,6 +402,7 @@ hr {
 
 .role-founder {
   margin: 0;
+  font-size: 10px;
   padding-bottom: 20px;
 }
 
@@ -500,14 +488,12 @@ hr {
 }
 
 .text-card {
-  background-color: #fff;
-  position: fixed;
-  bottom: 20px;
-  right: 80px;
+  display: none;
 }
 
 .img-help > img {
-  width: 5%;
+  width: 50px;
+  height: auto;
   position: fixed;
   bottom: 20px;
   right: 40px;
@@ -554,10 +540,100 @@ hr {
   content: 'asdf';
 }
 
+.img-designed:before, .img-designed:after {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(92, 102, 133);
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.img-designed:hover:before , .img-designed:hover:after {
+  font-size: 30px;
+}
+
+.img-designed:after {
+  content: "\f054";
+}
+
+.dev-card:before, .dev-card:after {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(92, 102, 133);
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.dev-card:after {
+  content: "\f054";
+}
+
 /* FEATURES SM */
 
 .card-features {
 
+}
+
+/* DEVELOPMENT SM */
+
+.arrow-card:before , .arrow-card:after {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(92, 102, 133);
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.arrow-card:after {
+  content: "\f054";
+}
+
+/* FOOTER */
+
+.help-shark {
+  position: relative;
+}
+
+.text-help {
+  background-color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.text-help:after {
+  content: ' \f0da';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 9px;
+}
+
+.text-card {
+  background-color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.text-card p{
+  color: #031b4e;
 }
 
 }
